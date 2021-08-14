@@ -2,6 +2,10 @@
   margin-left: 2rem;
 }
 
+.slider-container span {
+  margin-left: 0.5rem;
+}
+
 .slider {
   -webkit-appearance: none;
   width: 100%;
@@ -12,10 +16,6 @@
   opacity: 0.7;
   -webkit-transition: .2s;
   transition: opacity .2s;
-}
-
-.slider-container span {
-  margin-left: 0.5rem;
 }
 
 .slider:hover {
