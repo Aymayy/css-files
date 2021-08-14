@@ -5,6 +5,11 @@
 
 .slider-container span {
   margin-left: 0.5rem;
+  padding: 0.5rem;
+}
+
+.button.is-primary {
+  background-color: #04AA6D;
 }
 
 .slider {
@@ -32,9 +37,89 @@
   cursor: pointer;
 }
 
+.slider::-webkit-slider-thumb:hover {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #d65050;
+  cursor: pointer;
+}
+
 .slider::-moz-range-thumb {
   width: 25px;
   height: 25px;
   background: #04AA6D;
   cursor: pointer;
+}
+
+
+
+
+.form__group {
+    position: relative;
+    padding: 5px 0 0;
+    top: -10px;
+    width: 15%;
+}
+ .form__field {
+     font-family: inherit;
+     width: 100%;
+     border: 0;
+     border-bottom: 2px solid #9b9b9b;
+     outline: 0;
+     font-size: 1rem;
+     color: #fff;
+     padding: 7px 0;
+     background: transparent;
+     transition: border-color 0.2s;
+}
+ .form__field::placeholder {
+     color: transparent;
+}
+ .form__field:placeholder-shown ~ .form__label {
+     font-size: 1rem;
+     cursor: text;
+	 top: 20px;
+}
+ .form__label {
+	 position: absolute;
+	 top: 0;
+	 display: block;
+	 transition: 0.2s;
+	 font-size: 0.7rem;
+	 color: #9b9b9b;
+}
+ .form__field:focus {
+	 padding-bottom: 6px;
+	 font-weight: 700;
+	 border-width: 3px;
+	 border-image: linear-gradient(to right, #11998e, #38ef7d);
+	 border-image-slice: 1;
+}
+ .form__field:focus ~ .form__label {
+	 position: absolute;
+	 top: 0;
+	 display: block;
+	 transition: 0.2s;
+	 font-size: 0.7rem;
+	 color: #11998e;
+}
+/* reset input */
+ .form__field:required, .form__field:invalid {
+	 box-shadow: none;
+}
+
+.search__input:-webkit-autofill,
+.search__input:-webkit-autofill:hover,
+.search__input:-webkit-autofill:focus,
+.search__input:-webkit-autofill:active
+{
+ -webkit-box-shadow: 0 0 0 30px #1f2937 inset !important;
+    text-decoration: none;
+}
+
+.search__input:-webkit-autofill
+{
+ -webkit-text-fill-color: white !important;
 }
