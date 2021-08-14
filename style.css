@@ -1,5 +1,6 @@
 .slider-container {
   margin-left: 2rem;
+  border-right: solid #04AA6D 2px;
 }
 
 .slider-container span {
