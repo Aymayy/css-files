@@ -1,115 +1,119 @@
+body::-webkit-scrollbar {
+  width: 1px;
+}
+
 .slider-container {
-  margin-left: 2rem;
-  border-right: solid #04AA6D 2px;
+margin-left: 2rem;
+border-right: solid #04AA6D 2px;
 }
 
 .slider-container span {
-  margin-left: 0.5rem;
-  padding: 0.5rem;
+margin-left: 0.5rem;
+padding: 0.5rem;
 }
 
 .button.is-primary {
-  background-color: #04aa6d;
+background-color: #04aa6d;
 }
 
 .slider {
-  -webkit-appearance: none;
-  width: 100%;
-  height: 25px;
-  margin-left: 0.5rem;
-  background: #d3d3d3;
-  outline: none;
-  opacity: 0.7;
-  -webkit-transition: .2s;
-  transition: opacity .2s;
+-webkit-appearance: none;
+width: 100%;
+height: 25px;
+margin-left: 0.5rem;
+background: #d3d3d3;
+outline: none;
+opacity: 0.7;
+-webkit-transition: .2s;
+transition: opacity .2s;
 }
 
 .slider:hover {
-  opacity: 1;
+opacity: 1;
 }
 
 .slider::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  appearance: none;
-  width: 25px;
-  height: 25px;
-  background: #04aa6d;
-  cursor: pointer;
+-webkit-appearance: none;
+appearance: none;
+width: 25px;
+height: 25px;
+background: #04aa6d;
+cursor: pointer;
 }
 
 .slider::-webkit-slider-thumb:hover {
-  -webkit-appearance: none;
-  appearance: none;
-  width: 25px;
-  height: 25px;
-  background: #d65050;
-  transition: 0.2s;
-  cursor: pointer;
+-webkit-appearance: none;
+appearance: none;
+width: 25px;
+height: 25px;
+background: #d65050;
+transition: 0.2s;
+cursor: pointer;
 }
 
 .slider::-moz-range-thumb {
-  width: 25px;
-  height: 25px;
-  background: #04aa6d;
-  cursor: pointer;
+width: 25px;
+height: 25px;
+background: #04aa6d;
+cursor: pointer;
 }
 
 
 
 
 .form__group {
-    position: relative;
-    padding: 5px 0 0;
-    top: -10px;
-    width: 15%;
-    user-select: none;
+  position: relative;
+  padding: 5px 0 0;
+  top: -10px;
+  width: 15%;
+  user-select: none;
 }
- .form__field {
-     font-family: inherit;
-     width: 100%;
-     border: 0;
-     border-bottom: 2px solid #04aa6d;
-     outline: 0;
-     font-size: 1rem;
-     color: #fff;
-     padding: 7px 0;
-     background: transparent;
-     transition: border-color 0.2s;
+.form__field {
+   font-family: inherit;
+   width: 100%;
+   border: 0;
+   border-bottom: 2px solid #04aa6d;
+   outline: 0;
+   font-size: 1rem;
+   color: #fff;
+   padding: 7px 0;
+   background: transparent;
+   transition: border-color 0.2s;
 }
- .form__field::placeholder {
-     color: transparent;
+.form__field::placeholder {
+   color: transparent;
 }
- .form__field:placeholder-shown ~ .form__label {
-     font-size: 1rem;
-     cursor: text;
-	 top: 20px;
+.form__field:placeholder-shown ~ .form__label {
+   font-size: 1rem;
+   cursor: text;
+ top: 20px;
 }
- .form__label {
-	 position: absolute;
-	 top: 0;
-	 display: block;
-	 transition: 0.2s;
-	 font-size: 0.7rem;
-	 color: #04aa6d;
+.form__label {
+ position: absolute;
+ top: 0;
+ display: block;
+ transition: 0.2s;
+ font-size: 0.7rem;
+ color: #04aa6d;
 }
- .form__field:focus {
-	 padding-bottom: 6px;
-	 font-weight: 700;
-	 border-width: 3px;
-	 border-image: linear-gradient(to right,  #d65050, transparent);
-	 border-image-slice: 1;
+.form__field:focus {
+ padding-bottom: 6px;
+ font-weight: 700;
+ border-width: 3px;
+ border-image: linear-gradient(to right,  #d65050, transparent);
+ border-image-slice: 1;
 }
- .form__field:focus ~ .form__label {
-	 position: absolute;
-	 top: 0;
-	 display: block;
-	 transition: 0.2s;
-	 font-size: 0.7rem;
-	 color: #d65050;
+.form__field:focus ~ .form__label {
+ position: absolute;
+ top: 0;
+ display: block;
+ transition: 0.2s;
+ font-size: 0.7rem;
+ color: #d65050;
 }
 /* reset input */
- .form__field:required, .form__field:invalid {
-	 box-shadow: none;
+.form__field:required, .form__field:invalid {
+ box-shadow: none;
 }
 
 .search__input:-webkit-autofill,
@@ -117,78 +121,78 @@
 .search__input:-webkit-autofill:focus,
 .search__input:-webkit-autofill:active
 {
- -webkit-box-shadow: 0 0 0 30px #1f2937 inset !important;
-    text-decoration: none;
+-webkit-box-shadow: 0 0 0 30px #1f2937 inset !important;
+  text-decoration: none;
 }
 
 .search__input:-webkit-autofill
 {
- -webkit-text-fill-color: white !important;
+-webkit-text-fill-color: white !important;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
- * {
-	 margin: 0;
-	 padding: 0;
-	 box-sizing: border-box;
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
 }
- *:focus, *:active {
-	 outline: none !important;
-	 -webkit-tap-highlight-color: transparent;
+*:focus, *:active {
+ outline: none !important;
+ -webkit-tap-highlight-color: transparent;
 }
 
 
 .corner-button {
-	font-family: 'Lato', sans-serif;
-    letter-spacing: 0.02rem;
-    cursor: pointer;
-    background: transparent;
-    border-bottom: 0.1rem solid currentColor;
-    color: #04aa6d;
-    position: relative;
-    transition: color 0.3s;
-    height: 20%;
-    margin-top: 9.5px;
+font-family: 'Lato', sans-serif;
+  letter-spacing: 0.02rem;
+  cursor: pointer;
+  background: transparent;
+  border-bottom: 0.1rem solid currentColor;
+  color: #04aa6d;
+  position: relative;
+  transition: color 0.3s;
+  height: 20%;
+  margin-top: 9.5px;
 }
- .corner-button:hover {
-	 color: #d65050;
+.corner-button:hover {
+ color: #d65050;
 }
- .corner-button:hover::before {
-	 width: 0;
+.corner-button:hover::before {
+ width: 0;
 }
- .corner-button:hover::after {
-	 height: 0;
+.corner-button:hover::after {
+ height: 0;
 }
- .corner-button span {
-	 position: relative;
-	 z-index: 2;
-}
-
-.gallery__container {
-    padding-right: 0.5rem;
-    border-right: solid #04AA6D 2px;
+.corner-button span {
+ position: relative;
+ z-index: 2;
 }
 
-.gallery__container:hover svg{
-    width: 33pt;
-    height: 33pt;
-    fill: red;
+.gallery__icon__container {
+  padding-right: 0.5rem;
+  border-right: solid #04AA6D 2px;
 }
-.gallery__container:hover h3{
-    font-size: 1.3rem;
-    margin-left: 0.5rem;
+
+.gallery__icon__container:hover svg{
+  width: 33pt;
+  height: 33pt;
+  fill: red;
+}
+.gallery__icon__container:hover h3{
+  font-size: 1.3rem;
+  margin-left: 0.5rem;
 
 }
 
 .gallery__icon {
-    position: absolute;
-    fill: #04aa6d;
+  position: absolute;
+  fill: #04aa6d;
 }
 
 .gallery__label {
-    padding-left: 2.5rem;
-    width: 7rem;
-    user-select: none;
-    margin-left: 0.5rem;
+  padding-left: 2.5rem;
+  width: 9rem;
+  user-select: none;
+  margin-left: 0.5rem;
 }
