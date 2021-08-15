@@ -164,3 +164,31 @@
 	 position: relative;
 	 z-index: 2;
 }
+
+.gallery__container {
+    padding-right: 0.5rem;
+    border-right: solid #04AA6D 2px;
+}
+
+.gallery__container:hover svg{
+    width: 33pt;
+    height: 33pt;
+    fill: red;
+}
+.gallery__container:hover h3{
+    font-size: 1.3rem;
+    margin-left: 0.5rem;
+
+}
+
+.gallery__icon {
+    position: absolute;
+    fill: #04aa6d;
+}
+
+.gallery__label {
+    padding-left: 2.5rem;
+    width: 7rem;
+    user-select: none;
+    margin-left: 0.5rem;
+}
