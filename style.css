@@ -196,3 +196,41 @@ font-family: 'Lato', sans-serif;
   user-select: none;
   margin-left: 0.5rem;
 }
+
+/* dice styling */
+#Layer_9 .path_one {
+  fill: #06cc83;
+}
+#Layer_9 .path_two {
+  fill: #009961;
+}
+#Layer_9 .path_three {
+  fill: #04aa6d;
+}
+#Layer_9 .path_four {
+  fill: #04aa6d;
+}
+#Layer_9 .path_five {
+  fill: #009961;
+}
+
+#Layer_9:hover {
+  width: 28px;
+  height: 28px;
+  transition: 0.2s;
+}
+#Layer_9:hover .path_one {
+  fill: #e27777;
+}
+#Layer_9:hover .path_two {
+  fill: #c53838;
+}
+#Layer_9:hover .path_three {
+  fill: #d65050;
+}
+#Layer_9:hover .path_four {
+  fill: #d65050;
+}
+#Layer_9:hover .path_five {
+  fill: #c53838;
+}
