@@ -142,7 +142,10 @@ cursor: pointer;
  -webkit-tap-highlight-color: transparent;
 }
 
-
+.justify-between {
+    justify-content: space-between;
+    align-items: center;
+}
 .corner-button {
 font-family: 'Lato', sans-serif;
   letter-spacing: 0.02rem;
@@ -153,7 +156,6 @@ font-family: 'Lato', sans-serif;
   position: relative;
   transition: color 0.3s;
   height: 20%;
-  margin-top: 9.5px;
 }
 .corner-button:hover {
  color: #d65050;
@@ -178,11 +180,12 @@ font-family: 'Lato', sans-serif;
   width: 33pt;
   height: 33pt;
   fill: red;
+  transition: 0.3s;
 }
 .gallery__icon__container:hover h3{
   font-size: 1.3rem;
   margin-left: 0.5rem;
-
+  transition: 0.3s;
 }
 
 .gallery__icon {
@@ -215,9 +218,9 @@ font-family: 'Lato', sans-serif;
 }
 
 #Layer_9:hover {
-  width: 28px;
-  height: 28px;
-  transition: 0.2s;
+  width: 45px;
+  height: 45px;
+  transition: 0.3s;
 }
 #Layer_9:hover .path_one {
   fill: #e27777;
