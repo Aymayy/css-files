@@ -2,11 +2,6 @@ body::-webkit-scrollbar {
   width: 1px;
 }
 
-.slider-container {
-margin-left: 2rem;
-border-right: solid #04AA6D 2px;
-}
-
 .slider-container span {
 margin-left: 0.5rem;
 padding: 0.5rem;
@@ -172,8 +167,8 @@ font-family: 'Lato', sans-serif;
 }
 
 .gallery__icon__container {
+  height: 35px;
   padding-right: 0.5rem;
-  border-right: solid #04AA6D 2px;
 }
 
 .gallery__icon__container:hover svg{
@@ -236,4 +231,19 @@ font-family: 'Lato', sans-serif;
 }
 #Layer_9:hover .path_five {
   fill: #c53838;
+}
+
+.spacer {
+    width: 0;
+    height: 40px;
+    border-right: solid #04AA6D 2px;
+}
+
+.star:hover {
+    width: 40px;
+    height: 40px;
+    transition: 0.3s;
+}
+.star:hover .star_path{
+    fill: #d65050;
 }
